@@ -2,18 +2,19 @@
   "name": "Timer PWA",
   "short_name": "Timer",
   "description": "A simple timer PWA with push notifications",
-  "start_url": "/",
+  "start_url": "/timer/",
+  "scope": "/timer/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",
   "icons": [
     {
-      "src": "/icon-192x192.svg",
+      "src": "/timer/icon-192x192.svg",
       "sizes": "192x192",
       "type": "image/svg+xml"
     },
     {
-      "src": "/icon-512x512.svg",
+      "src": "/timer/icon-512x512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml"
     }
